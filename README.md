@@ -4,7 +4,12 @@
 ## 프로젝트 소개
 
 ## 구성원 및 역할
-
+|성명|업무|
+|------|---|
+|이건명|기업 주소|
+|신동진|지하철역별 혼잡도|
+|박장호|테스트2|
+|조성래|테스트2|
 ## 수집 데이터
 |데이터|설명|출처|
 |------|---|---|
@@ -12,8 +17,8 @@
 |통계포털?|지하철역별 혼잡도|테스트3|
 |테스트1|테스트2|테스트3|
 ## 사용 기술 스택
-|데이터|설명|출처|
-|------|---|---|
+|데이터|설명|
+|------|---|
 |OS|![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)|
 |개발툴|![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)|
 |라이브러리|![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Static Badge](https://img.shields.io/badge/BeautifulSoup-you_like?style=flat&logoSize=105) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)|
