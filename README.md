@@ -2,7 +2,7 @@
 ![NISI20100902_0003356838](https://github.com/user-attachments/assets/cba34b27-cf55-4e6a-b695-1e0abbb77fa7)
 
 ## 프로젝트 소개
-
+* 서울시 지하철 혼잡도를 유발하는 원인 분석
 ## 구성원 및 역할
 |성명|업무|
 |------|---|
@@ -24,5 +24,9 @@
 |라이브러리|![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Static Badge](https://img.shields.io/badge/BeautifulSoup-you_like?style=flat&logoSize=105) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)|
 |DB|![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)|
 |협업툴|![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white)|
-
 ## Data 분석 및 시각화
+* **설명**
+* **설명**
+* **설명**
+* **설명**
+* **설명**
