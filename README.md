@@ -69,12 +69,58 @@
   * < 주요 시설 >
     그 외에도 요인 분석에서 고려할 요소를 늘리기 위해 서울시 내 기차역, 버스터미널, 대학교 등의 정보를 추가로 수집하였고, 각각의 위치를 마커로 나타내었다. 아래의 사진은 한 예로 기차역에 대한 정보이다.
     
-    ![image](https://github.com/user-attachments/assets/8c46abdb-889b-4f8d-ad00-aa752bc9cf13)
+    ![Image](https://github.com/user-attachments/assets/8c46abdb-889b-4f8d-ad00-aa752bc9cf13)
 
   * < 분석 결과 >
     지하철역 이용객 정보(상위 30개역)와 회사 정보 및 위치, 주요 시설 위치를 모두 병합하면 다음과 같다.
     
-    ![image](https://github.com/user-attachments/assets/ebf17be2-d868-4327-99dd-dfbc6facc8a4)
+    ![Image](https://github.com/user-attachments/assets/ebf17be2-d868-4327-99dd-dfbc6facc8a4)
 
 * **요인 추론**
+  < 전체 이용자 관련 >
+  * 역당 연평균 이용자 수는 947,393명이고, 최소, 25%, 중위, 75%, 최대값의 정보는 다음과 같다.
+    
+    ![Image](https://github.com/user-attachments/assets/0c202d05-d8ee-437c-b3e0-c730d7a65dc7)
+
+    이용자 수를 회사, 환승역, 강남-구로, 교통시설 등의 요인에 대한 상관관계를 다음과 같이 분석하고
+    
+    ![Image](https://github.com/user-attachments/assets/96a13256-7a9c-479d-95d1-84e5d8d1fb65)
+
+    다음과 같이 회사-환승-2호선 순으로 이용자 수와 관련조가 높은 상관관계를 보임을 도출한다.
+
+    ![image](https://github.com/user-attachments/assets/839b7f93-db85-4355-94a7-0b5a43a83c7b)
+
+    또한 상위 관련도별로 각각 조합한 결과를 heatmap으로 나타내었을 때, 다음과 같은 결론을 얻을 수 있다.
+
+    - 회사-환승역이 가장 높은 이용자 수를 보인다.
+    - 회사-2호선이 그 다음으로 가장 높다.
+    - 2호선이 아니더라도 교통시설이 있으면 대체로 이용자수가 높은 경향성을 보인다.
+    - 강남-구로 일대를 지나면서 환승할 수 있는 2호선 역은 이용자 수가 높다.
+    - 회사 수가 많고 2호선이면서 환승할 수 있는 곳이면 이용자 수가 높다. 
+
+    ![Screenshot from 2025-07-08 11-35-44](https://github.com/user-attachments/assets/a31e0232-9c8f-4bc2-88c0-222e88a45234)
+
+
+  < 출퇴근 이용자 관련 >
+  * 대체로 이용자 수만큼 출퇴근 인원수가 많은 비례성 경향이 있었다.
+
+    ![Image](https://github.com/user-attachments/assets/2d6bcc34-d008-430d-8bae-bcfdee15ce19)
+
+
+    또한 위와 같은 방식으로 조합 결과를 heatmap으로 나타내면 다음과 같은 결과를 얻을 수 있다.
+
+    ![Image](https://github.com/user-attachments/assets/b0c1580f-7c74-421e-b13a-ab37f3cccb33)
+
+    최종적으로 사용 인원과 영향 요소에 관한 상관계수는 다음과 같으며
+
+    ![Screenshot from 2025-07-08 13-12-09](https://github.com/user-attachments/assets/a872a066-4568-4370-954a-3ef0a954df8a)
+
+    이에 대한 소결은 다음과 같다.
+    - 각 상관계수를 조합하여 얻은 결과는 실제 총 이용자 수와 유사.
+    - 출퇴근자 수에서 회사 수의 영향이 크지만 지배적이지는 않음.
+    
+    
 * **결론**
+  * 본 조사는 지하철역 이용자 데이터와 회사, 환승여부 등의 요인에 따른 상관관계를 분석하였다.
+  * 대체로 회사가 많거나, 환승역이거나, 2호선(순환선)인 경우에 대해 이용자 수가 많은 경향이 있다.
+  * 향후에는 기존 요인 외에도 사회적, 정책적 요인 등에 대해서도 다각도로 고려해보고자 한다.
